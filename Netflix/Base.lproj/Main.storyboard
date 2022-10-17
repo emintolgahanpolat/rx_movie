@@ -60,6 +60,7 @@
         <scene sceneID="Jdt-7j-LeP">
             <objects>
                 <navigationController id="E6x-mq-yRc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="W6p-8H-YnB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2s8-Gh-kEF">
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

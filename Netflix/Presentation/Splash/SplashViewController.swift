@@ -44,8 +44,11 @@ class SplashViewController: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) {
                 print("Sayfa Geç")
                 let home = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "HomeVC") as! HomeViewController
-                home.modalPresentationStyle = .fullScreen
-                self.present(home, animated: true)
+             
+                let nc = UINavigationController(rootViewController: home)
+                nc.modalPresentationStyle = .fullScreen
+                self.present(nc, animated: true)
+              
             }
         }else {
           showAlert(title: "İnternet Bağlantısnı Kontrol ediniz", message: nil, actions: nil)

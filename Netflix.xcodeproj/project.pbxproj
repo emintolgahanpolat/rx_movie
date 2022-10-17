@@ -40,7 +40,7 @@
 		758CEAA328F96C84002AEE01 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CEAA228F96C84002AEE01 /* RemoteDataSource.swift */; };
 		758CEAA528F9B469002AEE01 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CEAA428F9B469002AEE01 /* Connectivity.swift */; };
 		758CEAA828F9B4BE002AEE01 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CEAA728F9B4BE002AEE01 /* SplashViewController.swift */; };
-		758CEAAA28F9B4CF002AEE01 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CEAA928F9B4CF002AEE01 /* SplashViewModel.swift */; };
+		75CC9FAE28FD9CB200C3433B /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC9FAD28FD9CB200C3433B /* SplashViewModel.swift */; };
 		84B88B22D4F2494798A14C86 /* Pods_Netflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F12B78DB5E7801C96048A5 /* Pods_Netflix.framework */; };
 		D41F98C958EC752603202FA8 /* Pods_NetflixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF82986122F9B95B6F612B /* Pods_NetflixTests.framework */; };
 /* End PBXBuildFile section */
@@ -105,7 +105,7 @@
 		758CEAA228F96C84002AEE01 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
 		758CEAA428F9B469002AEE01 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		758CEAA728F9B4BE002AEE01 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		758CEAA928F9B4CF002AEE01 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashViewModel.swift; path = ../../../../../../../../Applications/SplashViewModel.swift; sourceTree = "<group>"; };
+		75CC9FAD28FD9CB200C3433B /* SplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		81CF82986122F9B95B6F612B /* Pods_NetflixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7DF8166B13C79391A6DE6C /* Pods-Netflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix.debug.xcconfig"; path = "Target Support Files/Pods-Netflix/Pods-Netflix.debug.xcconfig"; sourceTree = "<group>"; };
 		E7160C96ECB78F34378FEBD1 /* Pods_Netflix_NetflixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netflix_NetflixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -338,7 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				758CEAA728F9B4BE002AEE01 /* SplashViewController.swift */,
-				758CEAA928F9B4CF002AEE01 /* SplashViewModel.swift */,
+				75CC9FAD28FD9CB200C3433B /* SplashViewModel.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -588,7 +588,6 @@
 				758CEAA328F96C84002AEE01 /* RemoteDataSource.swift in Sources */,
 				7529737128FB63DC00BD6EFC /* DetailViewController.swift in Sources */,
 				758CEA9628F86FAD002AEE01 /* Swinject.swift in Sources */,
-				758CEAAA28F9B4CF002AEE01 /* SplashViewModel.swift in Sources */,
 				758CEAA828F9B4BE002AEE01 /* SplashViewController.swift in Sources */,
 				758CEA9828F89008002AEE01 /* AppNetwork.swift in Sources */,
 				758CEA9C28F93AEB002AEE01 /* LocalDataSource.swift in Sources */,
@@ -600,6 +599,7 @@
 				7529737B28FC021500BD6EFC /* SearchViewController.swift in Sources */,
 				758CEA9428F86F95002AEE01 /* AppModule.swift in Sources */,
 				758CEA4A28F85D50002AEE01 /* AppDelegate.swift in Sources */,
+				75CC9FAE28FD9CB200C3433B /* SplashViewModel.swift in Sources */,
 				758CEAA528F9B469002AEE01 /* Connectivity.swift in Sources */,
 				758CEA4C28F85D50002AEE01 /* SceneDelegate.swift in Sources */,
 				7529737C28FC021500BD6EFC /* SearchViewModel.swift in Sources */,
